@@ -1,0 +1,18 @@
+.header1 {
+    display: flex;
+    margin-left: 160px;
+}
+.header-links {
+    display: flex;
+    gap: 15px;
+    margin-left: 600px;
+    margin-top: 15px;
+}
+.title-portion {
+    display: flex;
+    flex-direction: column;
+}
+.header2 {
+    display: flex;
+    justify-content: center;
+}
