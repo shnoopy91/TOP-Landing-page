@@ -1,18 +1,57 @@
 .header1 {
     display: flex;
-    margin-left: 160px;
+    margin-left: 190px;
 }
 .header-links {
     display: flex;
     gap: 15px;
-    margin-left: 600px;
+    margin-left: 630px;
     margin-top: 15px;
+}
+a {
+    text-decoration: none;
+    color: wheat
 }
 .title-portion {
     display: flex;
     flex-direction: column;
+    margin-right: 250px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-top: 55px;
 }
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9fAf8;
+    padding-bottom: 10px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb; 
+}
+.signup-button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    
+}
+
+
 .header2 {
     display: flex;
-    justify-content: center;
+margin-left: 150px;
+
+    
+}
+.mountain-image {
+    margin-top: 35px;
+}
+.section1 {
+    background-color: #1f2937;
 }
