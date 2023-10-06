@@ -39,13 +39,12 @@ a {
     width: 120px;
     height: 30px;
     margin-top: 10px;
-    
 }
-
 
 .header2 {
     display: flex;
-margin-left: 150px;
+    margin-left: 150px;
+
 
     
 }
@@ -67,17 +66,18 @@ margin-left: 150px;
     font-weight: 800;
     color: #1f2937;
     margin: 30px;
+    margin-bottom: 50px;
 }
 .randominfo-images {
-display: flex;
-gap: 30px;
+    display: flex;
+    gap: 30px;
 
 }
 
 .bird-display {
-display: flex;
-flex-direction: column;
-max-width: 140px;
+    display: flex;
+    flex-direction: column;
+    max-width: 140px;
 
 
 }
@@ -90,7 +90,7 @@ max-width: 140px;
 }
 .bird-info {
     display: flex;
-   text-align: center;
+    text-align: center;
     margin-top: 8px;
 }
 .river-display {
@@ -146,7 +146,7 @@ max-width: 140px;
     border-radius: 5px;
     border: solid;
     height: 120px;
-   border-color: darkslategray;
+    border-color: darkslategray;
 }
 
 .quote {
@@ -160,7 +160,6 @@ max-width: 140px;
 }
 .quoter {
     margin-top: 100px;
-   
     font-size: 45px;
     font-weight: bold;
 }
@@ -168,4 +167,49 @@ max-width: 140px;
     font-size: 20px;
     margin-top: 12px;
     margin-left: 20px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    color: white;
+   
+}
+.ticketsection-border {
+    background-color:#3882f6 ;
+    padding: 50px 150px;
+    display: flex;
+    margin: 100px;
+    border-radius: 10px;
+}
+.buynow {
+    color: white;
+    background-color: #3882f6;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 280px;
+    font-size: 17px;
+    padding: 10px 26px;
+    font-weight: bold;
+}
+.tickets {
+    font-weight: bolder;
+    font-size: 20px;
+}
+.copyright {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    
+   
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
 }
